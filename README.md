@@ -37,6 +37,15 @@ Repo: https://github.com/hungw7/openland-server
 - Config `AWS_S3` for Amazon S3 to storage image (please use your config if we delete our config in .env)
 - Config `DATABASE_LOCAL` variable in .env to connect mongodb
 
+# Overview
+![Screenshot 2025-05-29 at 19 21 47](https://github.com/user-attachments/assets/d09b9b4f-f8b8-43c9-975a-271468c3e80a)
+
+- Người dùng sẽ kết nối với Client app và Metamask để cung cấp thông tin cần thiết
+cho việc lưu trữ trên server cũng như tương tác với contract.
+- Cổng Infura được sử dụng để tạo proxy kết nối đển mạng blockchain của Ethereum
+- Mạng được sử dụng trong đồ án này là Rinkeby
+- IPFS là kho lưu trữ các tài sản được kỹ thuật số như ảnh, gif, tên, mô tả tài sản.
+
 # Report
 
 - Link báo cáo: https://github.com/shifuvn/openland-contract/blob/master/DA1_19521574%2619522216_SE121.M21_NguyenTanToan.pdf
